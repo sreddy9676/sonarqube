@@ -1,0 +1,16 @@
+sonar.projectKey=woodlands  
+sonar.projectName=woodlands  
+sonar.host.url=http://13.234.115.83:9000 
+sonar.login=153b4bb27bf6c8f104b87578011f1d9fbc7e9109
+sonar.login=admin
+sonar.password=admin
+sonar.exclusions=vendor/**, storage/**, resources/**
+sonar.language=php 
+sonar.projectVersion=1.0
+sonar.sources=/var/lib/jenkins/workspace/$JOB_NAME
+sonar.sourceEncoding=UTF-8
+
+
+
+
+The above command should have to use in build section execute-sonar-scanner 
